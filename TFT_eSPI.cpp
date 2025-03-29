@@ -21,7 +21,7 @@
   #elif defined(CONFIG_IDF_TARGET_ESP32C3)
     #include "Processors/TFT_eSPI_ESP32_C3.c" // Tested with SPI (8-bit parallel will probably work too!)
   #else
-    #include "Processors/TFT_eSPI_ESP32.c"
+    #include "Processors/TFT_eSPI_ESP32.cpp"
   #endif
 #elif defined (ARDUINO_ARCH_ESP8266)
   #include "Processors/TFT_eSPI_ESP8266.c"

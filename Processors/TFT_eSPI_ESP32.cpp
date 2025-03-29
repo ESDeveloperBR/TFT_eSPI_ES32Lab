@@ -6,6 +6,8 @@
 // Global variables
 ////////////////////////////////////////////////////////////////////////////////////////
 
+#include "soc/gpio_struct.h"
+
 // Select the SPI port to use, ESP32 has 2 options
 #if !defined (TFT_PARALLEL_8_BIT)
   #ifdef CONFIG_IDF_TARGET_ESP32
