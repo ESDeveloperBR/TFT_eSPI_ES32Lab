@@ -1,22 +1,23 @@
 {
-  "name": "TFT_eSPI",
+  "name": "TFT_eSPI_ES32Lab",
   "version": "2.5.43",
-  "keywords": "Arduino, tft, display, ttgo, LilyPi, WT32-SC01, ePaper, display, Pico, RP2040 Nano Connect, RP2040, STM32, ESP8266, NodeMCU, ESP32, M5Stack, ILI9341, ST7735, ILI9163, S6D02A1, ILI9481, ILI9486, ILI9488, ST7789, ST7796, RM68140, SSD1351, SSD1963, ILI9225, HX8357D, GC9A01, R61581",
-  "description": "A TFT and ePaper (SPI or parallel interface) graphics library with optimisation for Raspberry Pi Pico, RP2040, ESP8266, ESP32 and STM32 processors",
-  "repository":
-  {
+  "keywords": "Arduino, TFT, display, ES32Lab, ESP32, ILI9341, ST7735, ST7789, ST7796, GC9A01",
+  "description": "Customized version of Bodmer's TFT_eSPI v2.5.43 for ES32Lab. Pre-configured GPIOs for full compatibility with ES32Lab development board.",
+  "repository": {
     "type": "git",
-    "url": "https://github.com/Bodmer/TFT_eSPI"
+    "url": "https://github.com/ESDeveloperBR/TFT_eSPI_ES32Lab"
   },
-  "authors":
-  [
+  "authors": [
     {
-        "name": "Bodmer",
-        "email": "bodmer@anola.net",
-        "maintainer": true
+      "name": "Bodmer",
+      "email": "bodmer@anola.net"
+    },
+    {
+      "name": "ESDeveloperBR",
+      "maintainer": true
     }
   ],
   "frameworks": "arduino",
-  "platforms": "raspberrypi, espressif8266, espressif32, ststm32",
+  "platforms": "espressif32",
   "headers": "TFT_eSPI.h"
 }

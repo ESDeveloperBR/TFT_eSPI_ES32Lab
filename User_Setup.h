@@ -1,5 +1,6 @@
 #define USER_SETUP_INFO "User_Setup"
 #define ST7735_DRIVER      // Define additional parameters below for this display
+#define TFT_RGB_ORDER 1
 #define TFT_WIDTH  128
 #define TFT_HEIGHT 160
 
